@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name":"open_flights",
   "private": "true",
   "dependencies": {
     "@hotwired/stimulus": "^3.1.0",
