@@ -80,3 +80,5 @@ gem 'tailwindcss-rails', '~> 2.0'
 gem 'pg', '~> 1.4'
 
 gem 'rename', '~> 1.0'
+
+gem 'fast_jsonapi', '~> 1.5'

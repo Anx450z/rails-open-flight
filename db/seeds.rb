@@ -9,15 +9,15 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 airlines = Airline.create([
-                           {
-                             name: 'United Airline',
-                             image_url: 'http://open-flights.s3.amazonwa.com/United-Airlines.png'
-                           },
-                           {
-                             name: 'Southwest',
-                             image_url: 'http://open-flights.s3.amazonwa.com/Southwest-Airline.png'
-                           }
-                         ])
+                            {
+                              name: 'United Airline',
+                              image_url: 'http://open-flights.s3.amazonwa.com/United-Airlines.png'
+                            },
+                            {
+                              name: 'Southwest',
+                              image_url: 'http://open-flights.s3.amazonwa.com/Southwest-Airline.png'
+                            }
+                          ])
 
 reviews = Review.create([
                           {
