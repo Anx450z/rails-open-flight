@@ -1,9 +1,14 @@
 # frozen_string_literal: true
 
 Rails.application.routes.draw do
-  root 'home#index'
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
+  root 'pages#index'
 
-  # Defines the root path route ("/")
-  # root "articles#index"
+  namespace :api do
+    namespace :v1 do
+      resources :airline, params: :slug
+      resources :reviews, only: %i[create destroy]
+    end
+  end
+
+  get '*path', to: 'pages#index', via: :all
 end
