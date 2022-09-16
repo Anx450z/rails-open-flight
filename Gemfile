@@ -82,3 +82,5 @@ gem 'pg', '~> 1.4'
 gem 'rename', '~> 1.0'
 
 gem 'fast_jsonapi', '~> 1.5'
+
+gem "pry", "~> 0.14.1"

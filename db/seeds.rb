@@ -10,7 +10,7 @@
 
 airlines = Airline.create([
                             {
-                              name: 'United Airline',
+                              name: 'United Airlines',
                               image_url: 'http://open-flights.s3.amazonwa.com/United-Airlines.png'
                             },
                             {
